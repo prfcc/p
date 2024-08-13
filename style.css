@@ -45,7 +45,7 @@ html {
 }
 
 #header_banner_middle {
-    top:20vh;
+    top:0vh;
     right:25%;
     position: absolute;
     width:50%;
