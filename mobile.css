@@ -1,0 +1,21 @@
+#activities_banner {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+    grid-row-start: 1 !important;
+    grid-row-end: 3 !important;
+}
+#activities {
+    grid-template-columns: 1fr 1fr !important;
+    padding-bottom:50vh !important;
+}
+.action_a {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+}
+#header_phrase {
+    display:none !important;
+}
+#learn_more_about_perfect {
+    text-align:center !important;
+    margin-top:50vh !important;
+}
