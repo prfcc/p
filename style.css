@@ -136,14 +136,14 @@ html {
   }
 }
 
-@media only screen and (max-width: 5in) {
+@media only screen and (max-width: 25cm) {
     #header_phrase {
         display:none;
     }
     #activities {
         grid-template-columns: 0.8fr 1.6fr;
     }
-@media only screen and (max-width: 3in) {
+@media only screen and (max-width: 12cm) {
     #activities_banner {
         grid-column-start: 1;
         grid-column-end: 3;
@@ -155,7 +155,7 @@ html {
         padding-bottom:50vh;
     }
 }
-@media only screen and (max-width: 2in) {
+@media only screen and (max-width: 7cm) {
     .action_a {
         grid-column-start: 1;
         grid-column-end: 3;
