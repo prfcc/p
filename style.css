@@ -98,7 +98,7 @@ html {
     display:grid;
     grid-template-columns: 0.8fr 1.6fr 0.8fr;
     grid-gap:10%;
-    padding-bottom:50vh;
+    padding-bottom:100vh;
     padding-top:4vh;
 }
 
