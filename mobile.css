@@ -6,7 +6,7 @@
 }
 #activities {
     grid-template-columns: 1fr 1fr !important;
-    padding-bottom:50vh !important;
+    padding-bottom:75vh !important;
 }
 .action_a {
     grid-column-start: 1 !important;
