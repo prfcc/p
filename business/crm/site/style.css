@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background: grey;
+    display: flex;
+}
+#description {
+    position: absolute;
+    width: 90vw;
+    height: 50vh;
+    background: grey;
+    left:5vw;
+    top:15vh;
+
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+#offers {
+    display: grid;
+    background: grey;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr;
+    margin-left:5vw;
+}
+#content {
+    position: absolute;
+    display: grid;
+    width: 90vw;
+    top: 70vh;
+}
+#offers_h1 {
+    text-align:center;
+}
+#name {
+    width:50vw;
+    text-align:center;
+}
+#contact {
+    width:25vw;
+    text-align:center;
+}

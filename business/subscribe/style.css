@@ -1,0 +1,22 @@
+#plans {
+    display: grid;
+    margin: min(5vw, 5vh);
+    grid-template-columns: 1fr 1fr;
+    grid-gap: min(5vw, 5vh);
+    height:auto;
+}
+.plan {
+    height: 100%;
+    width: 100%;
+    background: rgb(175, 150, 255);
+    border-radius: min(5vw, 5vh);
+    text-align: center;
+}
+.options {
+    text-align: left;
+}
+body {
+    margin:0;
+    padding:0;
+    background-color: rgb(125, 100, 255);
+}

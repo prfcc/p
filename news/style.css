@@ -1,0 +1,41 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: rgb(125, 100, 255);
+}
+.n {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow:0 0 min(3vw, 3vh) black;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 100%;
+    background-color: rgb(175, 150, 255);
+}
+.title {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.shortDescription {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.description {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#news {
+    display:grid;
+    padding: min(5vw, 5vh);
+    grid-template-columns: minmax(90vw, auto);
+    grid-row-gap: min(3vw, 3vh);
+    grid-auto-rows: minmax(20vh, auto);
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

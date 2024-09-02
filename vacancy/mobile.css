@@ -1,0 +1,6 @@
+body {
+    font-size: min(5vw, 5vh);
+}
+h1 {
+    font-size: min(10vw, 10vh);
+}
