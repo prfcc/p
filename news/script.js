@@ -11,7 +11,7 @@ function closeThis(n) {
 }
 
 window.onload = function () {
-    news = [{"title": "<h1>First business will get 50% off!</h1>", "shortDescription": "First business will get 50% discount for all options!", "description": "First business will get 50% discount for all options. You can buy subscriptions here: <a href='https://prfcc.github.io/p/business/subscribe/'>subscribe</a>"}]
+    news = [{"title": "<h1>First business will get 50% off!</h1>", "shortDescription": "First business will get 50% discount for all options!<a href='https://prfcc.github.io/p/business/subscribe/'>subscribe</a>", "description": "First business will get 50% discount for all options. You can buy subscriptions here: <a href='https://prfcc.github.io/p/business/subscribe/'>subscribe</a>"}]
     news.forEach((n) => {
         document.getElementById("news").innerHTML += "<div class='n' onclick='openThis(this)'><div class='title'>" + n["title"] + "</div><div class='shortDescription'>" + n["shortDescription"] + "</div><div class='description' hidden='hidden'>" + n["description"] + "</div></div>"
     })
